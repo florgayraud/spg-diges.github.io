@@ -1,7 +1,7 @@
 /* General */
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333;
+    color: #201c50;;
     background-color: #f4f4f9;
     line-height: 1.6;
 }
@@ -9,7 +9,7 @@ body {
 /* Encabezados */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #2b2d42;
+    color: #201c50;;
 }
 
 /* Enlaces */
@@ -44,7 +44,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #2b2d42;
+    background-color: #201c50;;
     color: white;
     text-align: center;
     padding: 10px 0;
