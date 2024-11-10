@@ -84,13 +84,18 @@ nav ul li a:hover {
 /* Estilos para la sección de logos de instituciones */
 .instituciones-logos {
     display: flex;
-    justify-content: space-between; /* Alinea los logos en los extremos */
+    justify-content: space-between;
     align-items: center;
     margin: 20px 0;
     max-width: 100%;
 }
 
-.instituciones-logos img {
-    width: 150px; /* Ajusta el tamaño de los logos */
+.logo1 {
+    width: 180px; /* Ajusta el tamaño del primer logo */
+    height: auto;
+}
+
+.logo2 {
+    width: 120px; /* Ajusta el tamaño del segundo logo */
     height: auto;
 }
