@@ -82,17 +82,12 @@ nav ul li a:hover {
 }
 
 /* Estilos para la sección de logos de instituciones */
-#instituciones {
-    padding: 20px 0;
-    background-color: #f4f4f9; /* Fondo opcional */
-}
-
 .instituciones-logos {
     display: flex;
     justify-content: space-between; /* Alinea los logos en los extremos */
     align-items: center;
-    max-width: 1200px; /* Ajusta el ancho máximo para centrar la sección */
-    margin: 0 auto; /* Centra la sección en la página */
+    margin: 20px 0;
+    max-width: 100%;
 }
 
 .instituciones-logos img {
