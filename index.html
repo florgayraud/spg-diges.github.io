@@ -12,14 +12,14 @@
     <!-- Menú de navegación -->
     <nav>
         <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#base-de-datos">Base de Datos</a></li>
-            <li><a href="#analisis">Análisis</a></li>
+            <li><a href="#" onclick="mostrarSeccion('inicio')">Inicio</a></li>
+            <li><a href="#" onclick="mostrarSeccion('base-de-datos')">Base de Datos</a></li>
+            <li><a href="#" onclick="mostrarSeccion('analisis')">Análisis</a></li>
         </ul>
     </nav>
 
     <!-- Sección principal de introducción -->
-    <section id="inicio">
+    <section id="inicio" class="seccion">
         <h1>Sentencias con Perspectiva de Género (SPG) de las altas cortes latinoamericanas</h1>
         
         <!-- Sección de logos de instituciones debajo del título -->
@@ -45,7 +45,7 @@
     </section>
 
     <!-- Resto de las secciones -->
-    <section id="base-de-datos">
+    <section id="base-de-datos" class="seccion" style="display: none;">
         <h2>Base de datos</h2>
         <p>Descarga la base de datos y el libro de códigos:</p>
         <ul>
@@ -54,7 +54,7 @@
         </ul>
     </section>
 
-    <section id="analisis">
+    <section id="analisis" class="seccion" style="display: none;">
         <h2>Análisis de datos</h2>
         <p>A continuación, se muestran los gráficos y el análisis de los datos.</p>
         
@@ -71,4 +71,19 @@
         <p>&copy; 2024 SPG-DIGES - Todos los derechos reservados</p>
     </footer>
 </body>
+
+<script>
+    function mostrarSeccion(id) {
+        // Ocultar todas las secciones
+        const secciones = document.querySelectorAll('.seccion');
+        secciones.forEach(seccion => {
+            seccion.style.display = 'none';
+        });
+    
+        // Mostrar solo la sección seleccionada
+        const seccionSeleccionada = document.getElementById(id);
+        seccionSeleccionada.style.display = 'block';
+    }
+    </script>
+
 </html>
