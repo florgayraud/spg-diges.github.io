@@ -87,7 +87,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center; /* Centra los logos en el contenedor */
     align-items: center;
-    gap: 5cm; /* Espacio de 5 cm entre los logos */
+    gap: 100px; 
     margin: 20px 0;
     max-width: 100%;
 }
