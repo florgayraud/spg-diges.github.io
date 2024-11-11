@@ -102,3 +102,25 @@ nav ul li a:hover {
     width: 150px; /* Ajusta el tamaño del segundo logo */
     height: auto;
 }
+
+.social-share {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espacio entre cada botón */
+    margin-top: 20px;
+}
+
+.social-share p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.social-share a img {
+    width: 30px; /* Ajusta el tamaño del ícono */
+    height: auto;
+    transition: transform 0.2s; /* Efecto al pasar el mouse */
+}
+
+.social-share a img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+}
