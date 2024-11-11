@@ -85,9 +85,9 @@ nav ul li a:hover {
 /* Estilos para la sección de logos de instituciones */
 .instituciones-logos {
     display: flex;
-    justify-content: center; /* Centra los logos */
+    justify-content: center; /* Centra los logos en el contenedor */
     align-items: center;
-    gap: 10px; /* Ajusta el espacio entre los logos */
+    gap: 5cm; /* Espacio de 5 cm entre los logos */
     margin: 20px 0;
     max-width: 100%;
 }
