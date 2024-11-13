@@ -121,6 +121,18 @@ nav ul li a:hover {
     height: auto;
 }
 
+/* Media Query para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .instituciones-logos {
+        flex-direction: column; /* Coloca los logos en una columna en lugar de una fila */
+        gap: 10px; /* Reduce el espacio entre logos */
+    }
+
+    .instituciones-logos img {
+        width: 100px; /* Reduce el tamaño de los logos en pantallas pequeñas */
+    }
+}
+
 .social-share {
     display: flex;
     align-items: center;
