@@ -19,6 +19,12 @@ h2, h3, h4, h5, h6 {
     font-size: 30px;
 }
 
+h3, h4, h5, h6 {
+    font-family: 'Noto Sans', sans-serif;
+    color: #201c50;
+    font-size: 25px;
+}
+
 /* Enlaces */
 a {
     color: #ef233c; /* Color rojo similar al utilizado en redalas.net */
