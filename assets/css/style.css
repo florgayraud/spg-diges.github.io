@@ -105,7 +105,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center; /* Centra el contenido del contenedor */
     align-items: center;
-    gap: 3cm; /* Ajusta el espacio entre los logos */
+    gap: 5cm; /* Ajusta el espacio entre los logos */
     flex-wrap: wrap; /* Permite que los logos se coloquen en una nueva línea si es necesario */
     margin: 20px auto;
     max-width: 100%;
