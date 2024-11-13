@@ -105,10 +105,10 @@ nav ul li a:hover {
     display: flex;
     justify-content: center; /* Centra el contenido del contenedor */
     align-items: center;
-    gap: 5cm; /* Espacio de 5 cm entre los logos */
-    margin: 20px auto; /* Centra el contenedor en la página */
+    gap: 20px; /* Ajusta el espacio entre los logos */
+    flex-wrap: wrap; /* Permite que los logos se coloquen en una nueva línea si es necesario */
+    margin: 20px auto;
     max-width: 100%;
-    width: fit-content; /* Ajusta el ancho del contenedor a su contenido */
 }
 
 .logo1 {
@@ -123,13 +123,9 @@ nav ul li a:hover {
 
 /* Media Query para pantallas pequeñas (móviles) */
 @media (max-width: 768px) {
-    .instituciones-logos {
-        flex-direction: column; /* Coloca los logos en una columna en lugar de una fila */
-        gap: 10px; /* Reduce el espacio entre logos */
-    }
-
     .instituciones-logos img {
         width: 100px; /* Reduce el tamaño de los logos en pantallas pequeñas */
+        height: auto;
     }
 }
 
